@@ -4,7 +4,8 @@
   "author": "Keshav Goyal",
   "keywords": [],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^4.17.1"
