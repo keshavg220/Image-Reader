@@ -5,9 +5,13 @@
   "keywords": [],
   "scripts": {
     "start": "node index.js",
-    "build": "tsc"
+    "build": "netlify-lambda build express"
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.5",
+    "netlify-lambda": "^1.6.3"
   }
 }
