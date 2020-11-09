@@ -35,7 +35,9 @@ const OCR = () => {
 		})
 	.then(({ data: { text } }) => {
 		$('#recognizedText').style.padding = '1em'
-		$('#recognizedText').innerText = text
+		var jsonObject = {}
+		jsonObject["response"] = text
+		$('#recognizedText').innerText = JSON.stringify(jsonObject)
 	})
 	.catch( e => { $('#recognizedText').innerText = e } )
 }
