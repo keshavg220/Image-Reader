@@ -5,7 +5,7 @@
   "keywords": [],
   "scripts": {
     "start": "node index.js",
-    "build": "netlify-lambda build express"
+    "build": "netlify-lambda build public"
   },
   "dependencies": {
     "express": "^4.17.1"
