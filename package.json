@@ -4,12 +4,14 @@
   "author": "Keshav Goyal",
   "keywords": [],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "netlify-lambda build public"
   },
   "dependencies": {
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "netlify-lambda": "^1.6.3"
   }
 }
